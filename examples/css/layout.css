@@ -1,0 +1,13 @@
+body {
+	margin:0;
+	padding:0;
+	background-color:#fff;
+}
+#box {
+	margin:30px;
+	clear:both;
+}
+.boxSep{
+	margin:10px;
+	float:left;
+}

@@ -1,0 +1,11 @@
+.JSimageBox, .JSimageBox2b  {
+	background-color:#000000;
+	display:block;
+	overflow:hidden;
+	background-image:url(../gfx/loading.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+.JSimageBox img, .JSimageBox2b img{
+	display:none;
+}
