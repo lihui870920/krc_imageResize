@@ -53,7 +53,7 @@ jQuery(function($){
 				autoOcult_BackImageWrapper: true,
 				autoOcult_OnErrorLoad: false,
 				reloadTime4reintent: 1000,
-				delayInit:0,
+				delayInit:1,
 				delayInit4Each:0,
 				avoidCahe:false,
 				verticalAling: "CENTER",  /*"CENTER"*/ /*"LEFT"*/ /*"RIGHT"*/
@@ -220,7 +220,6 @@ jQuery(function($){
 			////PUBLIC START
 			////----------------------------------------------------------
     		return this.each(function(indxObj) {
-
 				var sprThis = $(this);
 				var childImage = $('img:first', sprThis);
 				if (childImage == null) return;	
@@ -280,7 +279,7 @@ jQuery(function($){
 							};
 						};
 						///-------------
-					},$timeLoadImage);
+					},$timeLoadImage+1);
 				};
 				//--------------------------------
 				
