@@ -1,7 +1,6 @@
-jQuery Plug-in - Proyectiva : ImageBox v0.51 
+jQuery Plug-in - Proyectiva : ImageBox v0.52 
 14-03-12
-https://github.com/karacas/krc_imageResize
-Copyright 2012, Karacas / @krc_ale / http://www.proyectiva.com
+Copyright 2012, Karacas / @krc_ale / www.proyectiva.com
 Licensed under the MIT
 
 
@@ -15,8 +14,8 @@ Ej:
 		<img alt="" src="img.png"/>
 	</div>
 
-	view in action:
-	http://dl.dropbox.com/u/6983010/wserv/krc_imageResize/examples/pryjq-imgbox.html
+	view in action:	http://goo.gl/9XZOv
+
 
 Fatures:
 	Align
@@ -39,4 +38,3 @@ Options:
 	 verticalAling: "CENTER", "LEFT", "RIGHT"
 	 horizontalAling: "CENTER", "TOP", "BOTTOM"
 
-	 

@@ -2,7 +2,7 @@
  *	jQuery Plug-in - Proyectiva : ImageBox v0.52 
  *	14-03-12
  *	https://github.com/karacas/krc_imageResize
- *	Copyright 2012, Karacas / @krc_ale / http://www.proyectiva.com
+ *	Copyright 2012, Karacas / @krc_ale / www.proyectiva.com
  *  Licensed under the MIT
  *
  *	a jQuery Plugin to resize images to fit in a container
@@ -17,7 +17,7 @@
  *		</div>
  *
  *		view in action:
- *		http://dl.dropbox.com/u/6983010/wserv/krc_imageResize/examples/pryjq-imgbox.html
+ *		view in action:	http://goo.gl/9XZOv
  *
  *	Fatures:
  *		-Align
@@ -26,7 +26,7 @@
  *		-Error retry
  *		-All browsers
  *
- *	OPTIONS:
+ *	Options:
  *		 typeOut : true,
  *		 animTime : 0,
  *		 reloads : 3,
@@ -36,8 +36,8 @@
  *		 delayInit:10,
  *		 delayInit4Each:50,
  *		 avoidCache:false,
- *		 verticalAling: "CENTER",  "LEFT", "RIGHT"
- *		 horizontalAling: "CENTER",  "TOP", "BOTTOM"
+ *		 verticalAling: "CENTER", "LEFT", "RIGHT"
+ *		 horizontalAling: "CENTER", "TOP", "BOTTOM"
  *
  */
 
