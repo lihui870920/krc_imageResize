@@ -1,5 +1,5 @@
  /*
- *	jQuery Plugnin - Proyectiva : ImageBox v0.51
+ *	jQuery Plug-in - Proyectiva : ImageBox v0.51 - 14-03-12_10-41-11
  *	https://github.com/karacas/krc_imageResize
  *	http://www.proyectiva.com
  *	Licensed under the MIT
