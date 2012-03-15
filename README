@@ -36,5 +36,5 @@ Options:
 	 delayInit:10,
 	 delayInit4Each:50,
 	 avoidCache:false,
-	 verticalAling: "CENTER",  "LEFT", "RIGHT"
-	 horizontalAling: "CENTER",  "TOP", "BOTTOM"
+	 verticalAling: "CENTER", "LEFT", "RIGHT"
+	 horizontalAling: "CENTER", "TOP", "BOTTOM"
