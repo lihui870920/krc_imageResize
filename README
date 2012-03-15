@@ -38,3 +38,5 @@ Options:
 	 avoidCache:false,
 	 verticalAling: "CENTER", "LEFT", "RIGHT"
 	 horizontalAling: "CENTER", "TOP", "BOTTOM"
+
+	 
