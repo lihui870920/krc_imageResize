@@ -1,11 +1,12 @@
-/*!
+/*
  * jQuery Proyectiva Plugnin: ImageBox v0.51
+ * https://github.com/karacas/krc_imageResize
  * http://www.proyectiva.com
  *
  * Copyright 2010, Karacas @krc_ale
  * Dual licensed under the MIT or GPL Version 2 licenses.
  *
- * Date: 26/11/2010 03:14 p.m.
+ * 14-03-12_10-15-27
  *		
  * 		Wrappear una imagen con un div-span y jQeriarlo:
  *		$(".JSimageBox").pryImageBox({typeOut : true})
