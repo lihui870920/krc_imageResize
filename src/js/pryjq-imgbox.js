@@ -1,10 +1,9 @@
  /*
- *	jQuery Plug-in - Proyectiva : ImageBox v0.51 - 14-03-12_10-41-11
+ *	jQuery Plug-in - Proyectiva : ImageBox v0.51 
+ *	14-03-12
  *	https://github.com/karacas/krc_imageResize
- *	http://www.proyectiva.com
- *	Licensed under the MIT
- *	Copyright 2011, Karacas / @krc_ale
- *
+ *	Copyright 2012, Karacas / @krc_ale / http://www.proyectiva.com
+ *  Licensed under the MIT
  *
  *	a jQuery Plugin to resize images to fit in a container
  *
@@ -17,6 +16,8 @@
  *			<img alt="" src="img.png"/>
  *		</div>
  *
+ *		view in action:
+ *		http://dl.dropbox.com/u/6983010/wserv/krc_imageResize/examples/pryjq-imgbox.html
  *
  *	Fatures:
  *		-Align
