@@ -1,20 +1,38 @@
-krc_imageResize / proyectiva.com / @krc_ale
+jQuery Plugnin - Proyectiva : ImageBox v0.51
+https://github.com/karacas/krc_imageResize
+http://www.proyectiva.com
+Copyright 2011, Karacas / @krc_ale
+Licensed under the MIT
 
 
-a jQuery Plugin for resize images to fit in a container
+A jQuery Plugin to resize images to fit in a container
 
 
-EJ:
-  $(".imageContainer").pryImageBox({typeOut : true})
-  
-  <div class="imageContainer" style="width:250px; height:300px;">
-    <img alt="TEST" src="http://c.universalscraps.com/files/en/cats/cat_059.jpg?c1"/>
-  </div>
+Ej:
+	$(".imageContainer").pryImageBox({typeOut : true})
+
+	<div class="imageContainer" style="width:250px; height:300px;">
+		<img alt="" src="img.png"/>
+	</div>
 
 
 Fatures:
-  -align
-  -crop
-  -fadeIn
-  -error retry
+	Align
+	Crop
+	FadeIn anim
+	Error retry
+	All browsers
 
+
+Options:
+	 typeOut : true,
+	 animTime : 0,
+	 reloads : 3,
+	 autoOcult_BackImageWrapper: true,
+	 autoOcult_OnErrorLoad: false,
+	 reloadTime4reintent: 1000,
+	 delayInit:10,
+	 delayInit4Each:50,
+	 avoidCahe:false,
+	 verticalAling: "CENTER",  "LEFT", "RIGHT"
+	 horizontalAling: "CENTER",  "TOP", "BOTTOM"

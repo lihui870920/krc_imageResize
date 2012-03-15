@@ -1,29 +1,42 @@
-/*
- * jQuery Proyectiva Plugnin: ImageBox v0.51
- * https://github.com/karacas/krc_imageResize
- * http://www.proyectiva.com
+ /*
+ *	jQuery Plugnin - Proyectiva : ImageBox v0.51
+ *	https://github.com/karacas/krc_imageResize
+ *	http://www.proyectiva.com
+ *	Licensed under the MIT
+ *	Copyright 2011, Karacas / @krc_ale
  *
- * Copyright 2010, Karacas @krc_ale
- * Dual licensed under the MIT or GPL Version 2 licenses.
  *
- * 14-03-12_10-15-27
- *		
- * 		Wrappear una imagen con un div-span y jQeriarlo:
- *		$(".JSimageBox").pryImageBox({typeOut : true})
- *		$(this).pryImageBox({typeOut : true, animTime:1, animTime:animTimep, horizontalAling:"CENTER", verticalAling:"CENTER", delayInit4Each:1});	
- *		
- *		//OPTIONS:
- *		typeOut : true,
- *		animTime : 0,
- *		reloads : 3,
- *		autoOcult_BackImageWrapper: true,
- *		autoOcult_OnErrorLoad: false,
- *		reloadTime4reintent: 1000,
- *		delayInit:10,
- *		delayInit4Each:50,
- *		avoidCahe:false,
- *		verticalAling: "CENTER",  "LEFT", "RIGHT"
- *		horizontalAling: "CENTER",  "TOP", "BOTTOM"
+ *	a jQuery Plugin to resize images to fit in a container
+ *
+ *
+ *	EJ:
+ *		$(".imageContainer").pryImageBox({typeOut : true})
+ 		//$(this).pryImageBox({typeOut : true, animTime:1, animTime:animTimep, horizontalAling:"CENTER", verticalAling:"CENTER", delayInit4Each:1});	
+ *
+ *		<div class="imageContainer" style="width:250px; height:300px;">
+ *			<img alt="" src="img.png"/>
+ *		</div>
+ *
+ *
+ *	Fatures:
+ *		-Align
+ *		-Crop
+ *		-FadeIn anim
+ *		-Error retry
+ *		-All browsers
+ *
+ *	OPTIONS:
+ *		 typeOut : true,
+ *		 animTime : 0,
+ *		 reloads : 3,
+ *		 autoOcult_BackImageWrapper: true,
+ *		 autoOcult_OnErrorLoad: false,
+ *		 reloadTime4reintent: 1000,
+ *		 delayInit:10,
+ *		 delayInit4Each:50,
+ *		 avoidCahe:false,
+ *		 verticalAling: "CENTER",  "LEFT", "RIGHT"
+ *		 horizontalAling: "CENTER",  "TOP", "BOTTOM"
  *
  */
 
