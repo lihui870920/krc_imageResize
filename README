@@ -1,5 +1,20 @@
-# plugins.jquery.com
+krc_imageResize / proyectiva.com / @krc_ale
 
-The jQuery Plugins site, http://plugins.jquery.com/
 
-### How it works
+a jQuery Plugin for resize images to fit in a container
+
+
+EJ:
+  $(".imageContainer").pryImageBox({typeOut : true})
+  
+  <div class="imageContainer" style="width:250px; height:300px;">
+    <img alt="TEST" src="http://c.universalscraps.com/files/en/cats/cat_059.jpg?c1"/>
+  </div>
+
+
+Fatures:
+  -align
+  -crop
+  -fadeIn
+  -error retry
+
