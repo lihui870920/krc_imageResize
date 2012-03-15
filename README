@@ -35,6 +35,6 @@ Options:
 	 reloadTime4reintent: 1000,
 	 delayInit:10,
 	 delayInit4Each:50,
-	 avoidCahe:false,
+	 avoidCache:false,
 	 verticalAling: "CENTER",  "LEFT", "RIGHT"
 	 horizontalAling: "CENTER",  "TOP", "BOTTOM"
