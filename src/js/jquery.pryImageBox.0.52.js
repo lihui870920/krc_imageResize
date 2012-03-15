@@ -1,5 +1,5 @@
  /*
- *	jQuery Plug-in - Proyectiva : ImageBox v0.51 
+ *	jQuery Plug-in - Proyectiva : ImageBox v0.52 
  *	14-03-12
  *	https://github.com/karacas/krc_imageResize
  *	Copyright 2012, Karacas / @krc_ale / http://www.proyectiva.com
@@ -35,7 +35,7 @@
  *		 reloadTime4reintent: 1000,
  *		 delayInit:10,
  *		 delayInit4Each:50,
- *		 avoidCahe:false,
+ *		 avoidCache:false,
  *		 verticalAling: "CENTER",  "LEFT", "RIGHT"
  *		 horizontalAling: "CENTER",  "TOP", "BOTTOM"
  *
@@ -70,7 +70,7 @@ jQuery(function($){
 				reloadTime4reintent: 1000,
 				delayInit:1,
 				delayInit4Each:0,
-				avoidCahe:false,
+				avoidCache:false,
 				verticalAling: "CENTER",  /*"CENTER"*/ /*"LEFT"*/ /*"RIGHT"*/
 				horizontalAling: "CENTER" /*"CENTER"*/ /*"TOP"*/ /*"BOTTOM"*/
 			};
@@ -109,7 +109,8 @@ jQuery(function($){
 			};
 			////----------------------------------------------------------
 			////PRIVATE AUX
-			////GetResizeCropImage DEVUELVE UN POINT DE ANCHO Y ALTO DE UNA IMAGEN Y SUS LIMITES DEJANDO QUE AL MENOS UNO DE LOS LADOS RESPETE EL MÁXIMO DE ANCHO O DE ALTO DEPENDIENDO DE LA PROPORCION
+			////GetResizeCropImage DEVUELVE UN POINT DE ANCHO Y ALTO DE UNA IMAGEN 
+			////Y SUS LIMITES DEJANDO QUE AL MENOS UNO DE LOS LADOS RESPETE EL MÁXIMO DE ANCHO O DE ALTO DEPENDIENDO DE LA PROPORCION
 			////----------------------------------------------------------
 			function GetResizeCropImage(_widthMAX,_heightMAX,_widthIMG,_heightIMG){
 				var mi_proportion = (_widthIMG / _heightIMG);
@@ -208,7 +209,7 @@ jQuery(function($){
 						$childImg.width( Math.round (miNewSize.x));
 						$childImg.height( Math.round (miNewSize.y));
 					};
-					boxaling($obj, $childImg)
+					boxaling($obj, $childImg);
 				};
 				
 				//SHOW
@@ -244,10 +245,10 @@ jQuery(function($){
 				if (sprThis.css('display') != 'hidden') sprThis.css('overflow','hidden');
 				childImage.attr('alt', '');
 				
-				if  (options.avoidCahe){
+				if  (options.avoidCache){
 					var tmpSrc = childImage.attr('src');
 					childImage.attr('src', tmpSrc+'?'+Math.random());
-				}
+				};
 				
 				//GUARDA VALORES
 				childImage.hasRun = false;
