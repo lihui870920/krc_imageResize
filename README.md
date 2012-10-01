@@ -1,5 +1,5 @@
-#jQuery Plug-in | pryImageBox v0.52 
-14-03-12
+#jQuery Plug-in | pryImageBox v0.57 
+01/10/2012
 Copyright 2012, Karacas / @krc_ale / www.proyectiva.com
 Licensed under the MIT
 
