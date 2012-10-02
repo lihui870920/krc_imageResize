@@ -5,7 +5,7 @@
   "author": "karacas (@krc_ale)",
   "repository" : {"type": "git", "url": "git://github.com/karacas/krc_imageResize.git"},
   "main" : "src/js/pryjq-imgbox.js",
-  "version" : "0.57",
+  "version" : "0.58",
   "dependencies": {
     "jquery": "~1.7.2"
   }
