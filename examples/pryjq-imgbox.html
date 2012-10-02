@@ -1,50 +1,82 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="es">
 <head>
-<title>jQuery Plug-in - Proyectiva : ImageBox v0.52</title>
-<meta name="description" content="" />
-<meta name="keywords" content="" />
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
-<meta http-equiv="Content-Language" content="es" />
-<meta http-equiv="expires" content="0" />
-<meta name="rating" content="GENERAL" />
-<meta name="copyright" content="" />
-<meta name="robots" content="index, follow" />
-<meta name="distribution" content="global" />
-<meta name="author" content="" />
-<link rel="shortcut icon" href="favicon.ico" />
-<!-- -->
-<link href="css/reset.css" rel="stylesheet" type="text/css" />
-<link href="css/layout.css" rel="stylesheet" type="text/css" />
-<link href="css/pryjq-imgbox.css" rel="stylesheet" type="text/css" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-<script src="../src/js/pryjq-imgbox-min.js" type="text/javascript"></script>
-<!-- -->
-<script type="text/javascript">
-//--------------------------------------------
-$(document).ready(function () {
-//$(window).load(function(){	
-	$(".JSimageBox").pryImageBox({typeOut : true, animTime:500, horizontalAling:"CENTER", verticalAling:"CENTER"});
-	$(".JSimageBox2b").pryImageBox({typeOut : false, animTime:0, horizontalAling:"CENTER", verticalAling:"CENTER"});
-});
-//--------------------------------------------
-</script>
+	<meta charset="utf-8">
+	<title>pryjq-imgboxTest</title>
+	<!-- -->
+	<link href="css/reset.css" rel="stylesheet" type="text/css" />
+	<link href="css/layout.css" rel="stylesheet" type="text/css" />
+	<!-- <link href="css/pryjq-imgbox.css" rel="stylesheet" type="text/css" /> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+	<script src="../src/js/pryjq-imgbox-min.js" type="text/javascript"></script>
+	<!-- -->
+
+	<script type="text/javascript">
+	$(document).ready(function () {
+		$(".JSimageBox").pryImageBox({typeOut : true, animTime:500, horizontalAling:"CENTER", verticalAling:"CENTER"});
+		$(".JSimageBox2b").pryImageBox({typeOut : false, animTime:0, horizontalAling:"CENTER", verticalAling:"CENTER"});
+	});
+	</script>
+
+	<style type="text/css">
+	.JSimageBox, .JSimageBox2b  {
+		background-color:#000000;
+		display:block;
+		overflow:hidden;
+		background-image:url(gfx/loading.gif);
+		background-repeat:no-repeat;
+		background-position:center center;
+	}
+	.JSimageBox img, .JSimageBox2b img{
+		display:none;
+	}
+	</style>
+
+
 </head>
 <body>
-<!--  
-	<div class="boxSep" ><span class="JSimageBox" style="width:250px; height:200px;"><img alt="TEST" src="http://4.bp.blogspot.com/_ntaO39RNHbQ/TAM3jSMtXRI/AAAAAAAACHY/aoT2Akpq4qE/s1600/Autumn_Days_1920x1080+HDTV+1080p.jpg"/></span></div>
---> 
-<!-- -->
-<div id="box" >
-	<div class="boxSep" ><span class="JSimageBox" style="width:250px; height:300px;"><a href="#2"><img alt="TEST" src="http://4.bp.blogspot.com/_ntaO39RNHbQ/TAM3jSMtXRI/AAAAAAAACHY/aoT2Akpq4qE/s1600/Autumn_Days_1920x1080+HDTV+1080p.jpg"/></a></span></div>
-	<div class="boxSep" ><span class="JSimageBox" style="width:250px; height:300px;"><img alt="TEST" src="http://blogpopuliblogdei.files.wordpress.com/2008/07/cat-and-mouse-emmanuel-rd-flickr-chats-dans-lart-1552479062_4679920013.jpg"/></span></div>
-	<div class="boxSep" ><span class="JSimageBox" style="width:250px; height:300px;"><img alt="TEST" src="hdataTest/gfx/grid.jpg"/></span></div>
-	<br style="clear:both" />
-	<div class="boxSep" ><span class="JSimageBox2b" style="width:230px; height:210px;"><img alt="TEST" src="http://c.universalscraps.com/files/en/cats/cat_059.jpg?c1"/></span></div>
-	<div class="boxSep" ><span class="JSimageBox2b" style="width:230px; height:210px;"><img alt="TEST" src="hdataTest/gfx/grid.jpg"/></span></div>
-	<div class="boxSep" ><span class="JSimageBox2b" style="width:230px; height:210px;"><img alt="TEST" src="http://pablort.com/wp-content/uploads/2010/07/cat.jpg?c1"/></span></div>
-	<br style="clear:both" />
-	<div class="boxSep" ><span class="JSimageBox" style="width:600px; height:500px;"><img alt="TEST" src="hdataTest/gfx/grid.jpg"/></span></div>
-</div>
+	<div id="box">
+		<div class="boxSep">
+			<span class="JSimageBox" style=
+			"width:250px; height:300px;"><a href="#2"><img alt="TEST" src=
+			"http://4.bp.blogspot.com/_ntaO39RNHbQ/TAM3jSMtXRI/AAAAAAAACHY/aoT2Akpq4qE/s1600/Autumn_Days_1920x1080+HDTV+1080p.jpg"></a></span>
+		</div>
+
+		<div class="boxSep">
+			<span class="JSimageBox" style=
+			"width:250px; height:300px;"><img alt="TEST" src=
+			"http://blogpopuliblogdei.files.wordpress.com/2008/07/cat-and-mouse-emmanuel-rd-flickr-chats-dans-lart-1552479062_4679920013.jpg"></span>
+		</div>
+
+		<div class="boxSep">
+			<span class="JSimageBox" style=
+			"width:250px; height:300px;"><img alt="TEST" src=
+			"hdataTest/gfx/grid.jpg"></span>
+		</div><br style="clear:both">
+
+		<div class="boxSep">
+			<span class="JSimageBox2b" style=
+			"width:230px; height:210px;"><img alt="TEST" src=
+			"http://c.universalscraps.com/files/en/cats/cat_059.jpg?c1"></span>
+		</div>
+
+		<div class="boxSep">
+			<span class="JSimageBox2b" style=
+			"width:230px; height:210px;"><img alt="TEST" src=
+			"hdataTest/gfx/grid.jpg"></span>
+		</div>
+
+		<div class="boxSep">
+			<span class="JSimageBox2b" style=
+			"width:230px; height:210px;"><img alt="TEST" src=
+			"http://pablort.com/wp-content/uploads/2010/07/cat.jpg?c1"></span>
+		</div><br style="clear:both">
+
+		<div class="boxSep">
+			<span class="JSimageBox" style=
+			"width:600px; height:500px;"><img alt="TEST" src=
+			"hdataTest/gfx/grid.jpg"></span>
+		</div>
+	</div>
 </body>
 </html>
