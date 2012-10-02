@@ -1,7 +1,7 @@
 {
   "name": "krc_imageResize",
   "version": "0.57",
-  "main": "/src/js/pryjq-imgbox-min.js",
+  "main": "./src/js/pryjq-imgbox-min.js",
   "dependencies": {
     "jquery": "~1.7.2"
   }
