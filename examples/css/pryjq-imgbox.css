@@ -1,11 +1,10 @@
-.JSimageBox, .JSimageBox2b  {
-	background-color:#000000;
+.imgBox {
 	display:block;
 	overflow:hidden;
-	background-image:url(../gfx/loading.gif);
-	background-repeat:no-repeat;
-	background-position:center center;
+	background:transparent url('../gfx/pryjq-imagebox/loading.gif') no-repeat center center;
 }
-.JSimageBox img, .JSimageBox2b img{
-	display:none;
+.imgBox img{
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
 }

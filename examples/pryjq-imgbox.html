@@ -6,11 +6,12 @@
 	<!-- -->
 	<link href="css/reset.css" rel="stylesheet" type="text/css" />
 	<link href="css/layout.css" rel="stylesheet" type="text/css" />
-	<!-- <link href="css/pryjq-imgbox.css" rel="stylesheet" type="text/css" /> -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-	<script src="../src/js/pryjq-imgbox-min.js" type="text/javascript"></script>
-	<!-- -->
+	<script src="../src/js/pryjq-imgbox.js" type="text/javascript"></script>
+	
 
+
+	<!-- JS EXAMPLE-->
 	<script type="text/javascript">
 	$(document).ready(function () {
 		$(".JSimageBox").pryImageBox({typeOut : true, animTime:500, horizontalAling:"CENTER", verticalAling:"CENTER"});
@@ -18,17 +19,18 @@
 	});
 	</script>
 
+
+	<!-- CSS EXAMPLE-->
 	<style type="text/css">
-	.JSimageBox, .JSimageBox2b  {
-		background-color:#000000;
+	.JSimageBox, .JSimageBox2b, .imgBox {
 		display:block;
 		overflow:hidden;
-		background-image:url(gfx/loading.gif);
-		background-repeat:no-repeat;
-		background-position:center center;
+		background:transparent url('gfx/pryjq-imagebox/loading.gif') no-repeat center center;
 	}
-	.JSimageBox img, .JSimageBox2b img{
-		display:none;
+	.JSimageBox img, .JSimageBox2b img, .imgBox img{
+		opacity: 0;
+		-moz-opacity: 0;
+		filter:alpha(opacity=0);
 	}
 	</style>
 

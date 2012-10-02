@@ -1,12 +1,12 @@
 /*!
- * jQuery Proyectiva Plugnin: ImageBox v0.57
+ * jQuery Proyectiva Plugnin: ImageBox v0.58
  * http://www.proyectiva.com
  * @krc_ale
  *
  * Copyright 2010, Karacas
  * Dual licensed under the MIT or GPL Version 2 licenses.
  *
- * Date: 21-09-12_05-32-59
+ * Date: 02-10-12_03-43-17
  *
  *		Wrappear una imagen con un div-span y jQeriarlo:
  *		$(".JSimageBox").pryImageBox({typeOut : true})
@@ -14,22 +14,17 @@
  *		$(".JSimageBox").pryImageBoxLive({typeOut : true})
  *		o
  *		$(".JSimageBoxin").livequeryPryBox(function(){
-			$(this).pryImageBox({typeOut : true});
-		});
+ *			$(this).pryImageBox({typeOut : true});
+ *		});
  *
  *		//OPTIONS:
- *		typeOut : true,
- *		animTime : 0,
- *		reloads : 3,
- *		autoOcult_BackImageWrapper: true,
- *		autoOcult_OnErrorLoad: false,
- *		reloadTime4reintent: 1000,
- *		delayInit:10,
- *		delayInit4Each:50,
- *		avoidCahe:false,
- *		responsive:true,
- *		verticalAling: "CENTER",  "LEFT", "RIGHT"
- *		horizontalAling: "CENTER",  "TOP", "BOTTOM"
+ *		typeOut: true,
+ *		animTime: 0,
+ *		delayInit: 0,
+ *		avoidCahe: false,
+ *		responsive: false,
+ *		verticalAling: "CENTER", "LEFT", "RIGHT"
+ *		horizontalAling: "CENTER", "TOP", "BOTTOM"
  *
  */
 
@@ -220,17 +215,7 @@
 				if (options.autoOcult_BackImageWrapper) $obj.css('background-image', 'none');
 
 				var isVisible = $childImg.is(':visible');
-
-				if (!isVisible) {
-					$childImg.stop(true, true).fadeIn(options.animTime);
-					setTimeout(function() {
-						$childImg.css('filter', 'alpha(opacity=100)');
-						$childImg.css('-moz-opacity', '1');
-						$childImg.css('-khtml-opacity', '1');
-						$childImg.css('opacity', '1');
-					}, options.animTime * 1.2);
-				}
-
+				$childImg.stop(true, true).fadeTo(options.animTime, 1);
 				$childImg.processed = true;
 				$childImg.firstProcessed = true;
 			}
@@ -329,6 +314,7 @@
 						///-------------
 						if (childImage.hasRun || childImage.processed) return;
 						if (options.reloads > childImage.reloads) {
+							console.log(childImage.reloads);
 							setTimeout(function() {
 								if (childImage.hasRun || childImage.processed) return;
 								//SI DA ERROR  LE SUMA UN TIEMPO
