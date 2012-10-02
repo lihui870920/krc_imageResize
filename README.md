@@ -7,11 +7,11 @@ Licensed under the MIT
 
 ##Ej:
 ```
-$(".imageContainer").pryImageBox({typeOut : true})
 
-<div class="imageContainer" style="width:250px; height:300px;">
-	<img alt="" src="img.png"/>
-</div>
+	$(".JSimageBox").pryImageBox({typeOut : true})
+		or
+	$(".JSimageBox").pryImageBoxLive({typeOut : true})
+
 ```
 view in action:	http://goo.gl/9XZOv
 
@@ -26,15 +26,11 @@ All browsers
 
 ##Options:
 ```
-typeOut : true,
-animTime : 0,
-reloads : 3,
-autoOcult_BackImageWrapper: true,
-autoOcult_OnErrorLoad: false,
-reloadTime4reintent: 1000,
-delayInit:10,
-delayInit4Each:50,
-avoidCache:false,
+typeOut: true,
+animTime: 0,
+delayInit: 0,
+avoidCahe: false,
+responsive: false,
 verticalAling: "CENTER", "LEFT", "RIGHT"
 horizontalAling: "CENTER", "TOP", "BOTTOM"
 ```
