@@ -314,7 +314,6 @@
 						///-------------
 						if (childImage.hasRun || childImage.processed) return;
 						if (options.reloads > childImage.reloads) {
-							console.log(childImage.reloads);
 							setTimeout(function() {
 								if (childImage.hasRun || childImage.processed) return;
 								//SI DA ERROR  LE SUMA UN TIEMPO
