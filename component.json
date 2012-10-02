@@ -1,7 +1,11 @@
 {
   "name": "krc_imageResize",
-  "version": "0.57",
-  "main": "./krc_imageResize/src/js/pryjq-imgbox-min.js",
+  "description" : "A jQuery Plugin to resize images to fit in a container",
+  "keywords" : ["image", "resize"],
+  "author": "karacas (@krc_ale)",
+  "repository" : {"type": "git", "url": "git://github.com/karacas/krc_imageResize.git"},
+  "main" : "src/js/pryjq-imgbox.js",
+  "version" : "0.57",
   "dependencies": {
     "jquery": "~1.7.2"
   }
