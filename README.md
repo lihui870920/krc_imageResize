@@ -8,9 +8,9 @@ Licensed under the MIT
 ##Ej:
 ```
 	HTML:
-	<span class="imgBox" style="width:300px; height:200px;">
+	<div id="container" class="imgBox" style="width:300px; height:200px;">
 		<img alt="" src="http://www.juegostoystory.net/files/image/2010_Toy_Story_3_USLC12_Woody.jpg"/>
-	</span>
+	</div>
 
 	JS:
 	$(".imgBox").pryImageBox()
