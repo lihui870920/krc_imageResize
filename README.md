@@ -7,27 +7,35 @@ Licensed under the MIT
 
 ##Ej:
 ```
-	$(".JSimageBox").pryImageBox()
+	HTML:
+	<span class="imgBox" style="width:300px; height:200px;">
+		<img alt="" src="http://www.juegostoystory.net/files/image/2010_Toy_Story_3_USLC12_Woody.jpg"/>
+	</span>
 
-	Options:
-	$(".JSimageBox").pryImageBox({typeOut : true, animTime: 300, verticalAling: "CENTER", horizontalAling: "CENTER})
+	JS:
+	$(".imgBox").pryImageBox()
+
+	+ Options:
+	$(".imgBox").pryImageBox({typeOut : true, animTime: 300, verticalAling: "CENTER", horizontalAling: "CENTER})
 ```
 view in action:	http://goo.gl/9XZOv
 
+
 ##Fatures:
 ```
-Align
-Crop
-FadeIn anim
-All browsers
+	- Align
+	- Crop
+	- FadeIn anim
+	- All browsers
 ```
+
 
 ##Options:
 ```
- typeOut: true,
- animTime: 0,
- responsive: false,
- verticalAling: "CENTER", //"LEFT", "RIGHT"
- horizontalAling: "CENTER" //"TOP", "BOTTOM"
+typeOut: true,
+animTime: 0,
+responsive: false,
+verticalAling: "CENTER", //"LEFT", "RIGHT"
+horizontalAling: "CENTER" //"TOP", "BOTTOM"
 ```
 
