@@ -26,7 +26,7 @@ view in action:	http://goo.gl/9XZOv
 	- Align
 	- Crop
 	- FadeIn anim
-	- All browsers
+	- All browsers (Incl. ie6)
 ```
 
 
