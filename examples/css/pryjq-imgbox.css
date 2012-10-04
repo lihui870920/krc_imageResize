@@ -1,9 +1,0 @@
-.imgBox {
-	display:block;
-	overflow:hidden;
-	background:transparent url('../gfx/pryjq-imagebox/loading.gif') no-repeat center center;
-}
-.imgBox img{
-	visibility:hidden;
-}
-
