@@ -18,7 +18,7 @@ Licensed under the MIT
 	+ Options:
 	$(".imgBox").pryImageBox({typeOut : true, animTime: 300, verticalAling: "CENTER", horizontalAling: "CENTER})
 ```
-view in action:	http://goo.gl/9XZOv
+view in action:	http://goo.gl/py2Is
 
 
 ##Fatures:
