@@ -7,6 +7,9 @@ Licensed under the MIT
 
 ##Ej:
 ```
+	$(".JSimageBox").pryImageBox()
+
+	Options:
 	$(".JSimageBox").pryImageBox({typeOut : true, animTime: 300, verticalAling: "CENTER", horizontalAling: "CENTER})
 ```
 view in action:	http://goo.gl/9XZOv
