@@ -4,7 +4,6 @@
 	background:transparent url('../gfx/pryjq-imagebox/loading.gif') no-repeat center center;
 }
 .imgBox img{
-	opacity: 0;
-	-moz-opacity: 0;
-	filter:alpha(opacity=0);
+	visibility:hidden;
 }
+

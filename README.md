@@ -1,5 +1,5 @@
-#jQuery Plug-in | pryImageBox v0.58
-02-10-12
+#jQuery Plug-in | pryImageBox v0.59
+04-10-12
 Copyright 2012, Karacas / @krc_ale / www.proyectiva.com
 Licensed under the MIT
 
@@ -7,10 +7,7 @@ Licensed under the MIT
 
 ##Ej:
 ```
-
 	$(".JSimageBox").pryImageBox({typeOut : true})
-		or
-	$(".JSimageBox").pryImageBoxLive({typeOut : true})
 
 ```
 view in action:	http://goo.gl/9XZOv
@@ -20,17 +17,15 @@ view in action:	http://goo.gl/9XZOv
 Align
 Crop
 FadeIn anim
-Error retry
 All browsers
 ```
 
 ##Options:
 ```
-typeOut: true,
-animTime: 0,
-delayInit: 0,
-avoidCahe: false,
-responsive: false,
-verticalAling: "CENTER", "LEFT", "RIGHT"
-horizontalAling: "CENTER", "TOP", "BOTTOM"
+ typeOut: true,
+ animTime: 0,
+ responsive: false,
+ verticalAling: "CENTER", //"LEFT", "RIGHT"
+ horizontalAling: "CENTER" //"TOP", "BOTTOM"
 ```
+
