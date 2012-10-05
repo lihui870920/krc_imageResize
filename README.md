@@ -1,5 +1,8 @@
-#!deprecated! Use: https://github.com/karacas/imgLiquid
-#
+#deprecated 
+Use: https://github.com/karacas/imgLiquid
+
+
+
 
 #jQuery Plug-in | pryImageBox v0.59
 04-10-12
